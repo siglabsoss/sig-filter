@@ -1,20 +1,10 @@
 
-Ubuntu
-===
-
-sudo apt install python3-dev 
-
-Python Environments
-====
-
-sudo -H pip3 install -U virtualenv
-
-
-
 One time run this:
 ===
 Run this one time, and then run the next section
 ```
+sudo apt install python3-dev
+sudo -H pip3 install -U virtualenv
 virtualenv --system-site-packages -p python3 ./venv
 source ./venv/bin/activate
 pip install -r requirements.txt
