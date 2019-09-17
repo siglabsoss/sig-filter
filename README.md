@@ -29,7 +29,7 @@ If you need more pip packages, do this.  Make sure it says `(venv)` on your term
 
 ```
 pip install somepackage
-pip freeze > requirements.txt
+pip -l freeze > requirements.txt
 ```
 
 And the commit the requirements.txt
